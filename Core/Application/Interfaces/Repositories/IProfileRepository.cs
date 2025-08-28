@@ -1,4 +1,5 @@
 ﻿using konsume_v1.Core.Domain.Entities;
+using System.Linq.Expressions;
 
 namespace konsume_v1.Core.Application.Interfaces.Repositories
 {
@@ -9,6 +10,14 @@ namespace konsume_v1.Core.Application.Interfaces.Repositories
         Task<bool> GetProfileByUserIdAsync(int id);
         Task<int> GetProfileDetailsByUserIdAsync(int id);
         Task<Profile> GetAsync(string email);
+        Task<Profile> GetAsync(Expression<Func<Profile, bool>> exp);
+        Task<ICollection<Profile>> GetAllAsync();
+        void Remove(Profile Profile);
+        Profile Update(Profile Profile);
+        Task<bool> ExistsAsync(string email, int id);
+        Task<bool> ExistsAsync(string email);
     }
 
 }
+
+
