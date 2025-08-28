@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\context\\konsumecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\context\\konsumecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KonsumeContext.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Context\\KonsumeContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context\\KonsumeContext.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Context\\KonsumeContext.cs",
+              "RelativeToolTip": "Infrastructure\\Context\\KonsumeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T14:49:20.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
