@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\verificationcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\verificationcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\core\\application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:core\\application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\core\\application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:core\\application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\core\\application\\interfaces\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:core\\application\\interfaces\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\core\\application\\interfaces\\repositories\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:core\\application\\interfaces\\repositories\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\models\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:models\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VerificationCodeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\VerificationCodeRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\VerificationCodeRepository.cs",
-              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\VerificationCodeRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\VerificationCodeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Core\\Application\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Core\\Application\\Services\\RoleService.cs",
+              "RelativeToolTip": "Core\\Application\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T19:53:37.289Z",
+              "WhenOpened": "2025-08-29T16:36:10.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Core\\Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Core\\Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "Core\\Application\\Services\\EmailService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T19:53:13.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T19:53:06.379Z",
+              "WhenOpened": "2025-08-29T16:35:34.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IProfileRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Core\\Application\\Interfaces\\Repositories\\IProfileRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Application\\Interfaces\\Repositories\\IProfileRepository.cs",
-              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Core\\Application\\Interfaces\\Repositories\\IProfileRepository.cs",
-              "RelativeToolTip": "Core\\Application\\Interfaces\\Repositories\\IProfileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Title": "MailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Models\\MailRequest.cs",
+              "RelativeDocumentMoniker": "Models\\MailRequest.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Models\\MailRequest.cs",
+              "RelativeToolTip": "Models\\MailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T19:52:30.374Z",
+              "WhenOpened": "2025-08-29T16:34:56.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Core\\Application\\Interfaces\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Interfaces\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Core\\Application\\Interfaces\\Services\\IEmailService.cs",
+              "RelativeToolTip": "Core\\Application\\Interfaces\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T16:33:54.148Z",
               "EditorCaption": ""
             }
           ]
