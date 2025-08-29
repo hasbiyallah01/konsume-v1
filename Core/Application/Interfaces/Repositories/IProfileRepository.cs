@@ -16,8 +16,13 @@ namespace konsume_v1.Core.Application.Interfaces.Repositories
         Profile Update(Profile Profile);
         Task<bool> ExistsAsync(string email, int id);
         Task<bool> ExistsAsync(string email);
+
     }
 
 }
+
+
+
+
 
 
