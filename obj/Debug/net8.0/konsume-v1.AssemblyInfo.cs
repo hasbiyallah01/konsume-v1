@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("konsume-v1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1e98dcc052aad21789d3e8edccddcda37ca1054")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e860bcfce61a7966fdad86b384bec231848bf6c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("konsume-v1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("konsume-v1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
