@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace Seek.Models.UserModel
+namespace konsume_v1.Models.UserModel
 {
     public class UserRequest
     {

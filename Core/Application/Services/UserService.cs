@@ -1,12 +1,10 @@
-﻿using Seek.Core.Application.Interfaces.Services;
-using Seek.Models;
-using Seek.Models.UserModel;
-using Google.Apis.Auth;
+﻿using Google.Apis.Auth;
 using System.Security.Claims;
 using konsume_v1.Core.Application.Interfaces.Repositories;
 using konsume_v1.Core.Application.Interfaces.Services;
 using konsume_v1.Models;
 using konsume_v1.Core.Domain.Entities;
+using konsume_v1.Models.UserModel;
 
 namespace Seek.Core.Application.Services
 {

@@ -1,7 +1,7 @@
 ﻿
 using konsume_v1.Models;
 
-namespace Seek.Models.UserModel
+namespace konsume_v1.Models.UserModel
 {
     public class UserResponse
     {

@@ -1,8 +1,6 @@
-﻿
-using konsume_v1.Core.Application.Interfaces.Repositories;
+﻿using konsume_v1.Core.Application.Interfaces.Repositories;
 using konsume_v1.Core.Application.Interfaces.Services;
 using konsume_v1.Models;
-using Seek.Models;
 namespace konsume_v1.Core.Application.Services
 {
     public class VerificationCodeService : IVerificationCodeService

@@ -68,7 +68,7 @@ namespace konsume_v1.Core.Application.Services
                                 $"<p>No more endless searching for meal ideas! With Seek, you'll get customized meal and snack recommendations that fit your" +
                                 $" goals. Plus, our cool image recognition feature lets you snap a photo of your food, and our AI will analyze its nutritional" +
                                 $" content. Simple, right?</p>\r\n" +
-                                $"<p>Ready to get started? <a href='https://seekai.vercel.app/auth/login'>Log in to your dashboard</a> and begin your personalized nutrition " +
+                                $"<p>Ready to get started? <a href='https://konsumeai.vercel.app/auth/login'>Log in to your dashboard</a> and begin your personalized nutrition " +
                                 $"journey today.</p>\r\n" +
                                 $"<p>Best regards,<br/>Hasbiy from Seek</p>\r\n" +
                                 $"<img src=\"https://drive.google.com/uc?export=view&id=1KH6x4h7J0PCGE7yDiJj4YUBDYPHPBd3B\" alt=\"Seek Logo\" " +
@@ -78,7 +78,7 @@ namespace konsume_v1.Core.Application.Services
             var mailRequest = new MailRequests
             {
                 Body = emailBody,
-                Title = "WELCOME TO SEEK",
+                Title = "WELCOME TO Konsume",
                 HtmlContent = emailBody
             };
 

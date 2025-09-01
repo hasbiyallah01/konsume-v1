@@ -1,10 +1,9 @@
 ﻿
 
 using konsume_v1.Models;
-using Seek.Models;
-using Seek.Models.UserModel;
+using konsume_v1.Models.UserModel;
 
-namespace Seek.Core.Application.Interfaces.Services
+namespace konsume_v1.Core.Application.Interfaces.Services
 {
     public interface IUserService
     {
