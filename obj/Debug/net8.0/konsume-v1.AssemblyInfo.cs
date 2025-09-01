@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("konsume-v1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73e3116958cc57ae2238116c842e6a39ed549244")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e51e2a60d9de0487501743d74f58718dd6bd69f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("konsume-v1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("konsume-v1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
