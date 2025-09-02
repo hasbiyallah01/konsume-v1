@@ -9,5 +9,7 @@ namespace konsume_v1.Core.Domain.Entities
         [JsonInclude]
         public string? Description { get; set; }
         public ICollection<User> Users { get; set; } = new HashSet<User>();
+        
+        public ICollection<UserInteraction> UserInteractions { get; set; } = new HashSet<UserInteraction>();
     }
 }

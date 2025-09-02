@@ -18,5 +18,17 @@ namespace konsume_v1.Core.Domain.Entities
         [JsonInclude]
         public Role Role { get; set; }
         public ICollection<VerificationCode> VerificationCodes { get; set; } = new HashSet<VerificationCode>();
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+

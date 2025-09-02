@@ -9,7 +9,7 @@
         public User? User { get; set; }
     }
 
-    public class EmailConfiguration : Auditables
+    public class EmailConfiguration
     {
         public string EmailSenderAddress { get; set; }
         public string EmailSenderName { get; set; }
