@@ -5,7 +5,7 @@ using konsume_v1.Core.Application.Interfaces.Repositories;
 using konsume_v1.Core.Domain.Entities;
 using konsume_v1.Infrastructure.Context;
 
-namespace Seek.Infrastructure.Repositories
+namespace konsume_v1.Infrastructure.Repositories
 {
     public class RoleRepository : IRoleRepository
     {

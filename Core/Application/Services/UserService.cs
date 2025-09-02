@@ -6,7 +6,7 @@ using konsume_v1.Models;
 using konsume_v1.Core.Domain.Entities;
 using konsume_v1.Models.UserModel;
 
-namespace Seek.Core.Application.Services
+namespace konsume_v1.Core.Application.Services
 {
     public class UserService : IUserService
     {
@@ -100,7 +100,7 @@ namespace Seek.Core.Application.Services
                         Subject = "Confirmation Code",
                         ToEmail = user.Email,
                         Title = "Your Confirmation Code",
-                        HtmlContent = $"<html><body><h1>Hello {user.FirstName}, Welcome to Seek.</h1><h4>Your confirmation code is {code.Code} to continue with the registration</h4></body></html>"
+                        HtmlContent = $"<html><body><h1>Hello {user.FirstName}, Welcome to konsume_v1.</h1><h4>Your confirmation code is {code.Code} to continue with the registration</h4></body></html>"
                     };
 
                     await _emailService.SendEmailAsync(new MailRecieverDto { Name = user.FirstName, Email = user.Email }, mailRequest);
@@ -212,16 +212,16 @@ namespace Seek.Core.Application.Services
                     {
                         var mailRequest = new MailRequests
                         {
-                            Subject = "Welcome to Seek!",
+                            Subject = "Welcome to konsume_v1!",
                             ToEmail = user.Email,
-                            Title = "Welcome to Seek!",
+                            Title = "Welcome to konsume_v1!",
                             HtmlContent = $@"
                         <html>
                             <body>
                                 <h1>Hello {user.FirstName} {user.LastName},</h1>
-                                <p>Welcome to <strong>Seek</strong>! We're excited to have you join our community.</p>
-                                <p>If you have any questions or need assistance, feel free to <a href='mailto:reachSeek@gmail.com'>contact us</a>.</p>
-                                <p>Thank you for choosing Seek! Let's get started!</p>
+                                <p>Welcome to <strong>konsume_v1</strong>! We're excited to have you join our community.</p>
+                                <p>If you have any questions or need assistance, feel free to <a href='mailto:reachkonsume_v1@gmail.com'>contact us</a>.</p>
+                                <p>Thank you for choosing konsume_v1! Let's get started!</p>
                             </body>
                         </html>"
                         };

@@ -25,13 +25,13 @@ namespace konsume_v1.Core.Application.Services
             };
 
             string emailBody = $"<p>Hello {profile.User.FirstName},</p>\r\n" +
-                                $"<p>Your profile has been successfully updated on Seek!</p>\r\n" +
+                                $"<p>Your profile has been successfully updated on konsume_v1!</p>\r\n" +
                                 $"<p>We wanted to let you know that we have received and processed your recent changes. Our AI-driven platform is now even better equipped to " +
                                 $"provide you with personalized meal plans and recommendations tailored to your updated profile.</p>\r\n" +
                                 $"<p>If you have any further changes or need assistance, feel free to <a href='reachkonsume@gmail.com'>contact our support team</a>.</p>\r\n" +
-                                $"<p>Thank you for being a part of Seek!</p>\r\n" +
-                                $"<p>Best regards,<br/>Hasbiy from Seek</p>\r\n" +
-                                $"<img src=\"https://drive.google.com/uc?export=view&id=1KH6x4h7J0PCGE7yDiJj4YUBDYPHPBd3B\" alt=\"Seek Logo\" " +
+                                $"<p>Thank you for being a part of konsume_v1!</p>\r\n" +
+                                $"<p>Best regards,<br/>Hasbiy from konsume_v1</p>\r\n" +
+                                $"<img src=\"https://drive.google.com/uc?export=view&id=1KH6x4h7J0PCGE7yDiJj4YUBDYPHPBd3B\" alt=\"konsume_v1 Logo\" " +
                                 $"style=\"display: block; margin: 0 auto;\">\r\n";
 
             var mailRequest = new MailRequests
@@ -61,17 +61,17 @@ namespace konsume_v1.Core.Application.Services
             };
 
             string emailBody = $"<p>Hello {profile.User.FirstName},</p>\r\n" +
-                                $"<p>Welcome to Seek! We’re thrilled to have you join our community.</p>\r\n" +
-                                $"<p>Seek is here to revolutionize your nutrition journey with our AI-driven platform. Whether you want to lose weight," +
+                                $"<p>Welcome to konsume_v1! We’re thrilled to have you join our community.</p>\r\n" +
+                                $"<p>konsume_v1 is here to revolutionize your nutrition journey with our AI-driven platform. Whether you want to lose weight," +
                                 $" build muscle, or manage specific health needs, we’ve got you covered. Our smart technology tailors meal plans just for you," +
                                 $" making healthy eating easy and enjoyable.</p>\r\n" +
-                                $"<p>No more endless searching for meal ideas! With Seek, you'll get customized meal and snack recommendations that fit your" +
+                                $"<p>No more endless searching for meal ideas! With konsume_v1, you'll get customized meal and snack recommendations that fit your" +
                                 $" goals. Plus, our cool image recognition feature lets you snap a photo of your food, and our AI will analyze its nutritional" +
                                 $" content. Simple, right?</p>\r\n" +
                                 $"<p>Ready to get started? <a href='https://konsumeai.vercel.app/auth/login'>Log in to your dashboard</a> and begin your personalized nutrition " +
                                 $"journey today.</p>\r\n" +
-                                $"<p>Best regards,<br/>Hasbiy from Seek</p>\r\n" +
-                                $"<img src=\"https://drive.google.com/uc?export=view&id=1KH6x4h7J0PCGE7yDiJj4YUBDYPHPBd3B\" alt=\"Seek Logo\" " +
+                                $"<p>Best regards,<br/>Hasbiy from konsume_v1</p>\r\n" +
+                                $"<img src=\"https://drive.google.com/uc?export=view&id=1KH6x4h7J0PCGE7yDiJj4YUBDYPHPBd3B\" alt=\"konsume_v1 Logo\" " +
                                 $"style=\"display: block; margin: 0 auto;\">\r\n";
 
 

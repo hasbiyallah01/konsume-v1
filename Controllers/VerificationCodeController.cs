@@ -2,7 +2,7 @@
 using konsume_v1.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Seek.Controllers
+namespace konsume_v1.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

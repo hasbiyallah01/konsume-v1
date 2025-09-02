@@ -84,7 +84,7 @@ namespace konsume_v1.Core.Application.Services
             {
                 Subject = "Confirmation Code",
                 ToEmail = user.Email,
-                HtmlContent = $"<html><body><h1>Hello {user.FirstName}, Welcome to Seek.</h1><h4>Your confirmation code is {code.Code} to continue with the registration</h4></body></html>",
+                HtmlContent = $"<html><body><h1>Hello {user.FirstName}, Welcome to konsume_v1.</h1><h4>Your confirmation code is {code.Code} to continue with the registration</h4></body></html>",
             };
             await _mailService.SendEmailClient(mailRequest.HtmlContent, mailRequest.Subject, mailRequest.ToEmail);
             _verificationCodeRepository.Update(code);

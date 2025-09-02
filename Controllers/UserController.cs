@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace Seek.Controllers
+namespace konsume_v1.Controllers
 {
     [Route("api/users")]
     [ApiController]

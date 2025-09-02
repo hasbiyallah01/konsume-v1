@@ -3,7 +3,7 @@ using konsume_v1.Models.RoleModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Seek.Controllers
+namespace konsume_v1.Controllers
 {
     [Route("api/roles")]
     [ApiController]

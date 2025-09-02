@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 
-namespace Seek.Controllers
+namespace konsume_v1.Controllers
 {
     [Route("api/auth")]
     [ApiController]
@@ -82,6 +82,13 @@ namespace Seek.Controllers
 
     }
 }
+
+
+
+
+
+
+
 
 
 
