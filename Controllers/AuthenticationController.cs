@@ -41,7 +41,25 @@ namespace Seek.Controllers
             }
         }
 
-      
+        [HttpPost("google-login")]
+        public async Task<IActionResult> GoogleLogin([FromForm] string tokenId)
+        {
+            var user = await _userService.GoogleLogin(tokenId);
+
+            if (user.IsSuccessful == true && user.Message == "User logged in successfully")
+            {
+                var token = _identityService.GenerateToken(_config["Jwt:Key"], _config["Jwt:Issuer"], user.Value);
+                return Ok(new { token, user.Value, user.Message });
+            }
+            if (user.IsSuccessful == true && user.Message == "Google user created successfully")
+            {
+                return Ok(new {user.Value, user.Message });
+            }
+            else
+            {
+                return StatusCode(400, user.Message);
+            }
+        }
 
 
         [HttpPost("register")]
