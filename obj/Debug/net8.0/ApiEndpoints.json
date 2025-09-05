@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "Seek.Controllers.AuthenticationController",
+    "ContainingType": "konsume_v1.Controllers.AuthenticationController",
     "Method": "GoogleLogin",
     "RelativePath": "api/auth/google-login",
     "HttpMethod": "POST",
@@ -16,7 +16,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.AuthenticationController",
+    "ContainingType": "konsume_v1.Controllers.AuthenticationController",
     "Method": "Login",
     "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
@@ -37,7 +37,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.AuthenticationController",
+    "ContainingType": "konsume_v1.Controllers.AuthenticationController",
     "Method": "Register",
     "RelativePath": "api/auth/register",
     "HttpMethod": "POST",
@@ -73,7 +73,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.RoleController",
+    "ContainingType": "konsume_v1.Controllers.RoleController",
     "Method": "GetRoles",
     "RelativePath": "api/roles",
     "HttpMethod": "GET",
@@ -83,7 +83,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.RoleController",
+    "ContainingType": "konsume_v1.Controllers.RoleController",
     "Method": "GetRole",
     "RelativePath": "api/roles/{id}",
     "HttpMethod": "GET",
@@ -99,7 +99,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.RoleController",
+    "ContainingType": "konsume_v1.Controllers.RoleController",
     "Method": "UpdateRole",
     "RelativePath": "api/roles/{id}",
     "HttpMethod": "PUT",
@@ -125,7 +125,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.RoleController",
+    "ContainingType": "konsume_v1.Controllers.RoleController",
     "Method": "DeleteRole",
     "RelativePath": "api/roles/{id}",
     "HttpMethod": "DELETE",
@@ -141,7 +141,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.UserController",
+    "ContainingType": "konsume_v1.Controllers.UserController",
     "Method": "GetAllUsers",
     "RelativePath": "api/users/users",
     "HttpMethod": "GET",
@@ -151,7 +151,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.UserController",
+    "ContainingType": "konsume_v1.Controllers.UserController",
     "Method": "GetUser",
     "RelativePath": "api/users/users/{id}",
     "HttpMethod": "GET",
@@ -167,7 +167,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.UserController",
+    "ContainingType": "konsume_v1.Controllers.UserController",
     "Method": "UpdateUser",
     "RelativePath": "api/users/users/{id}",
     "HttpMethod": "PUT",
@@ -188,7 +188,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.UserController",
+    "ContainingType": "konsume_v1.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/users/users/{id}",
     "HttpMethod": "DELETE",
@@ -204,7 +204,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.VerificationCodeController",
+    "ContainingType": "konsume_v1.Controllers.VerificationCodeController",
     "Method": "IsOtpVerified",
     "RelativePath": "api/VerificationCode/is-verified/{userId}",
     "HttpMethod": "GET",
@@ -220,7 +220,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.VerificationCodeController",
+    "ContainingType": "konsume_v1.Controllers.VerificationCodeController",
     "Method": "ResetPassword",
     "RelativePath": "api/VerificationCode/ResetPassword",
     "HttpMethod": "PUT",
@@ -236,7 +236,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.VerificationCodeController",
+    "ContainingType": "konsume_v1.Controllers.VerificationCodeController",
     "Method": "UpdateCode",
     "RelativePath": "api/VerificationCode/UpdateCode/{id}",
     "HttpMethod": "PUT",
@@ -252,7 +252,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Seek.Controllers.VerificationCodeController",
+    "ContainingType": "konsume_v1.Controllers.VerificationCodeController",
     "Method": "VerifyCode",
     "RelativePath": "api/VerificationCode/VerifyCode/{code}/{id}",
     "HttpMethod": "GET",
@@ -271,5 +271,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "konsume_v1.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[konsume_v1.WeatherForecast, konsume-v1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
   }
 ]

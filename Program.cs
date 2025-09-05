@@ -46,7 +46,7 @@ builder.Services.AddCors(cors =>
 {
     cors.AddPolicy("Konsume", pol =>
     {
-        pol.WithOrigins("*")
+        pol.WithOrigins("http://localhost:3000/")
            .AllowAnyHeader()
            .AllowAnyMethod()
            .AllowCredentials();
@@ -145,3 +145,10 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+
+
+
+
+
