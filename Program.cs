@@ -41,6 +41,8 @@ builder.Services.AddTransient<IRoleService, RoleService>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IVerificationCodeService, VerificationCodeService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ITimetableRepository, TimetableRepository>();
 
 builder.Services.AddCors(cors =>
 {

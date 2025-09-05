@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace konsume_v1GenAi.Core.Domain.Entities
+namespace konsume_v1.Core.Domain.Entities
 {
 
     public class ScrambledMessageMapping

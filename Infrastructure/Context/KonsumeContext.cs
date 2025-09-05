@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using konsume_v1.Core.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System.Text.Json;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using konsume_v1.Core.Domain.Entities;
+
 namespace konsume_v1.Infrastructure.Context
 {
     public class KonsumeContext : DbContext
@@ -15,7 +16,16 @@ namespace konsume_v1.Infrastructure.Context
         public DbSet<Role> Roles => Set<Role>();
         public DbSet<User> Users => Set<User>();
         public DbSet<Profile> Profiles => Set<Profile>();
+        public DbSet<UserInteraction> UserInteractions => Set<UserInteraction>();
         public DbSet<VerificationCode> VerificationCodes => Set<VerificationCode>();
+        public DbSet<MealRecommendation> MealRecommendations => Set<MealRecommendation>();
+        public DbSet<Bookmark> Bookmarks => Set<Bookmark>();
+        public DbSet<Product> Products => Set<Product>();
+        public DbSet<MealPlans> MealPlans => Set<MealPlans>();
+        public DbSet<Streak> Streaks => Set<Streak>();
+        public DbSet<Restaurant> Restaurants => Set<Restaurant>();
+        public DbSet<Company> Companies => Set<Company>();
+        public DbSet<CompanyProducts> CompanyProducts => Set<CompanyProducts>();
 
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
         {
@@ -49,11 +59,41 @@ namespace konsume_v1.Infrastructure.Context
                 c => c.ToList()
             );
 
+            modelBuilder.Entity<Ingredient>()
+                .Property(i => i.Concerns)
+                .HasConversion(concernsConverter)
+                .Metadata.SetValueComparer(concernsComparer);
+            modelBuilder.Entity<Company>()
+                .HasMany(c => c.Products)
+                .WithOne(p => p.Company)
+                .HasForeignKey(p => p.CompanyId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+
+            modelBuilder.Entity<Product>()
+                .HasMany(p => p.Ingredients)
+                .WithOne(i => i.Product)
+                .HasForeignKey(i => i.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Product>()
+                .HasMany(p => p.Alternatives)
+                .WithOne(a => a.Product)
+                .HasForeignKey(a => a.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<ScrambledMessageMapping>()
+                .HasOne(m => m.Product)
+                .WithMany()
+                .HasForeignKey(m => m.ProductEntityId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Role>().Property<int>("Id").ValueGeneratedOnAdd();
             modelBuilder.Entity<User>().Property<int>("Id").ValueGeneratedOnAdd();
             modelBuilder.Entity<Profile>().Property<int>("Id").ValueGeneratedOnAdd();
+            modelBuilder.Entity<UserInteraction>().Property<int>("Id").ValueGeneratedOnAdd();
             modelBuilder.Entity<VerificationCode>().Property<int>("Id").ValueGeneratedOnAdd();
+            modelBuilder.Entity<Product>().Property<int>("Id").ValueGeneratedOnAdd();
             modelBuilder.Entity<VerificationCode>()
             .HasOne(vc => vc.User)
             .WithMany(u => u.VerificationCodes)
@@ -103,8 +143,8 @@ namespace konsume_v1.Infrastructure.Context
             {
                 Id = 1,
                 Weight = 45,
-                Gender = Core.Domain.Enums.Gender.Female,
-                DateOfBirth = DateTime.SpecifyKind(new DateTime(2008, 3, 19, 0, 0, 0), DateTimeKind.Utc),
+                Gender = konsume_v1.Core.Domain.Enums.Gender.Female,
+                DateOfBirth = DateTime.SpecifyKind(new DateTime(2025, 3, 19, 0, 0, 0), DateTimeKind.Utc),
                 DateCreated = DateTime.UtcNow,
                 Height = 90,
                 IsDeleted = false,
@@ -118,3 +158,4 @@ namespace konsume_v1.Infrastructure.Context
         }
     }
 }
+

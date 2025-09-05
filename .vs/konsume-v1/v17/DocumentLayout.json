@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\timetablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\timetablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\verificationcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\verificationcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\iverificationcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:iverificationcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\konsume-v1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:konsume-v1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|c:\\users\\homepc\\source\\repos\\konsume-v1\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF75A278-0E58-4100-A1EA-8476DE4FE93B}|konsume-v1.csproj|solutionrelative:infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,40 +51,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAxAAAAAAAAAA==",
+              "Title": "TimetableRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\TimetableRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\TimetableRepository.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\TimetableRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\TimetableRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T15:55:11.823Z",
+              "WhenOpened": "2025-09-05T16:48:31.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IVerificationCodeService.cs",
-              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\IVerificationCodeService.cs",
-              "RelativeDocumentMoniker": "IVerificationCodeService.cs",
-              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\IVerificationCodeService.cs",
-              "RelativeToolTip": "IVerificationCodeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Title": "VerificationCodeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\VerificationCodeRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\VerificationCodeRepository.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\VerificationCodeRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\VerificationCodeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T15:54:21.662Z",
+              "WhenOpened": "2025-09-05T16:48:27.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "konsume-v1.csproj",
-              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\konsume-v1.csproj",
-              "RelativeDocumentMoniker": "konsume-v1.csproj",
-              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\konsume-v1.csproj",
-              "RelativeToolTip": "konsume-v1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-05T09:10:56.107Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T16:48:26.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T16:48:24.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T16:48:21.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T16:48:19.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\HomePC\\source\\repos\\konsume-v1\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T16:20:12.765Z",
               "EditorCaption": ""
             }
           ]
