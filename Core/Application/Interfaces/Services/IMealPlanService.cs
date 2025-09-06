@@ -7,7 +7,7 @@ namespace konsume_v1.Core.Application.Interfaces.Services
     {
         Task<BaseResponse<ICollection<MealPlanResponse>>> Generate30DayMealPlanAsync(int id);
         Task<BaseResponse<ICollection<MealPlanResponse>>> RetrieveMealPlanAsync(int profileId);
-        Task<BaseResponse<ICollection<MealPlanResponse>>> UpdateMealPlans(MealPlans mealplan, int profileid);
+        //Task<BaseResponse<ICollection<MealPlanResponse>>> UpdateMealPlans(MealPlans mealplan, int profileid);
     }
 }
 
