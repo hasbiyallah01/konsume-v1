@@ -324,6 +324,76 @@ namespace konsume_v1.Core.Application.Services
                 };
             }
         }
+
+        public async Task<BaseResponse<ICollection<MealPlanResponse>>> UpdateMealPlans(MealPlans mealPlan, int profileId)
+        {
+            try
+            {
+                var existingMealPlans = await _timetableRepository.GetMealPlanByProfileIdAsync(profileId);
+                var mealPlansForDate = existingMealPlans.FirstOrDefault(mp => mp.date.Date == mealPlan.date.Date);
+
+                if (mealPlansForDate == null)
+                {
+                    return new BaseResponse<ICollection<MealPlanResponse>>
+                    {
+                        IsSuccessful = false,
+                        Message = "Meal plan for the specified date not found."
+                    };
+                }
+
+                var mealToUpdate = mealPlansForDate.MealPlan;
+
+                if (mealToUpdate == null || mealToUpdate.Id != mealPlan.Id)
+                {
+                    return new BaseResponse<ICollection<MealPlanResponse>>
+                    {
+                        IsSuccessful = false,
+                        Message = "Specified meal not found."
+                    };
+                }
+
+                mealToUpdate.Label = mealPlan.MealPlan.Label;
+                mealToUpdate.MealType = mealPlan.MealPlan.MealType;
+                mealToUpdate.FoodName = mealPlan.MealPlan.FoodName;
+                mealToUpdate.FoodDescription = mealPlan.MealPlan.FoodDescription;
+                mealToUpdate.Tags = mealPlan.MealPlan.Tags;
+                mealToUpdate.CookTime = mealPlan.MealPlan.CookTime;
+                mealToUpdate.NutritionalInfo = mealPlan.MealPlan.NutritionalInfo;
+
+                var updateResult = await _timetableRepository.UpdateMealPlans(mealPlansForDate);
+                if (!updateResult)
+                {
+                    return new BaseResponse<ICollection<MealPlanResponse>>
+                    {
+                        IsSuccessful = false,
+                        Message = "Failed to update the meal plans."
+                    };
+                }
+
+                var response = new MealPlanResponse
+                {
+                    Date = mealPlansForDate.date,
+                    meal = new List<MealPlan> { mealToUpdate }
+                };
+
+                return new BaseResponse<ICollection<MealPlanResponse>>
+                {
+                    IsSuccessful = true,
+                    Value = new List<MealPlanResponse> { response },
+                    Message = "Meal plan updated successfully."
+                };
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception: {ex.Message}");
+
+                return new BaseResponse<ICollection<MealPlanResponse>>
+                {
+                    IsSuccessful = false,
+                    Message = "An unexpected error occurred while updating the meal plans."
+                };
+            }
+        }
     }
 }
         
