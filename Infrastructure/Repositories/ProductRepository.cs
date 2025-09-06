@@ -7,6 +7,7 @@ using Swashbuckle.AspNetCore.SwaggerUI;
 using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Microsoft.Extensions.ObjectPool;
 using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography.X509Certificates;
 
 namespace konsume_v1.Infrastructure.Repositories
 {
@@ -51,3 +52,8 @@ namespace konsume_v1.Infrastructure.Repositories
         }
     }
 }
+
+
+
+
+
