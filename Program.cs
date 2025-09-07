@@ -34,6 +34,9 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnC
 builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IRoleRepository, RoleRepository>();
 builder.Services.AddTransient<IVerificationCodeRepository, VerificationCodeRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ITimetableRepository, TimetableRepository>();
+builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IIdentityService, IdentityService>();
 builder.Services.AddTransient<IUserService, UserService>();
@@ -41,9 +44,9 @@ builder.Services.AddTransient<IRoleService, RoleService>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IVerificationCodeService, VerificationCodeService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<ITimetableRepository, TimetableRepository>();
-
+builder.Services.AddScoped<IProfileService, ProfileService>();
+builder.Services.AddScoped<IUserInteractionService, UserInteractionService>();
+builder.Services.AddScoped<IMealRecommendationService, MealRecommendationService>();
 builder.Services.AddCors(cors =>
 {
     cors.AddPolicy("Konsume", pol =>

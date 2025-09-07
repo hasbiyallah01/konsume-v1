@@ -161,7 +161,7 @@ namespace konsume_v1.Core.Application.Services
         {
             var lines = markdown.Split('\n', StringSplitOptions.RemoveEmptyEntries);
             var meal = new MealDetails();
-            var nutrition = new NutritionalInfo();
+            var nutrition = new NutritionalInformation();
 
             for (int i = 0; i < lines.Length; i++)
             {
@@ -253,13 +253,13 @@ namespace konsume_v1.Core.Application.Services
         public int PersonalizedHealthScore { get; set; }
         public string Description { get; set; }
         public List<string> Tags { get; set; } = new();
-        public NutritionalInfo Nutrition { get; set; }
+        public NutritionalInformation Nutrition { get; set; }
         public List<string> RecipeSteps { get; set; } = new();
         public string Usage { get; set; }
         public List<string> Alternatives { get; set; } = new();
     }
 
-    public class NutritionalInfo
+    public class NutritionalInformation
     {
         public string Calories { get; set; }
         public string Carbs { get; set; }
