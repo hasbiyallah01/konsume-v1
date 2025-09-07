@@ -36,14 +36,36 @@ namespace konsume_v1.Core.Application.Services
         }
 
         
-        public Task<List<UserInteraction>> GetUserInteractionsAsyn(int id)
+        public async Task<List<UserInteraction>> GetUserInteractionsAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _context.UserInteractions
+                .Where(x => x.UserId == id)
+                .OrderByDescending(x => x.DateCreated)
+                .ToListAsync();
         }
 
-        public Task<List<UserInteraction>> GetUserInteractionsAsync(int id)
+        public async Task<List<UserInteraction>> GetUserInteractionsAsyn(int id)
         {
-            throw new NotImplementedException();
+            return await _context.UserInteractions
+                .Where(x => x.UserId == id)
+                .Include(ui => ui.User)
+                    .ThenInclude(u => u.Profile)
+                .OrderByDescending(x => x.DateCreated)
+                .Select(ui => new UserInteraction
+                {
+                    Id = ui.Id,
+                    UserId = ui.UserId,
+                    DateCreated = ui.DateCreated,
+                    User = new User
+                    {
+                        Id = ui.User.Id,
+                        FirstName = ui.User.FirstName,
+                        LastName = ui.User.LastName,
+                        Email = ui.User.Email,
+                        Profile = ui.User.Profile
+                    }
+                })
+                .ToListAsync();
         }
     }
 }
