@@ -1,4 +1,6 @@
-﻿using System.Security.Claims;
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Security.Claims;
+using System.Security.Cryptography.X509Certificates;
 using konsume_v1.Core.Application.Interfaces.Repositories;
 using konsume_v1.Core.Application.Interfaces.Services;
 using konsume_v1.Core.Domain.Entities;
@@ -153,3 +155,7 @@ namespace konsume_v1.Core.Application.Services
         }
     }
 }
+
+
+
+

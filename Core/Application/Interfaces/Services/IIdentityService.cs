@@ -8,3 +8,4 @@ namespace konsume_v1.Core.Application.Interfaces.Services
         bool IsTokenValid(string key, string issuer, string token);
     }
 }
+
