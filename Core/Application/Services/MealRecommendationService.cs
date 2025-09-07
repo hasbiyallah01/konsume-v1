@@ -7,6 +7,7 @@ using konsume_v1.Models;
 using OpenAI_API;
 using OpenAI_API.Chat;
 using Microsoft.EntityFrameworkCore;
+using konsume_v1.Controllers;
 
 namespace konsume_v1.Core.Application.Services
 {
@@ -46,6 +47,13 @@ namespace konsume_v1.Core.Application.Services
             await _dbContext.SaveChangesAsync();
         }
 
+        public async Task<string> GetDailyRecommendationsAsync(int profileId, string dateSeed)
+        {
+            var recommendation = await _dbContext.MealRecommendations
+                .FirstOrDefaultAsync(mr => mr.ProfileId == profileId && mr.DateSeed == dateSeed);
+
+            return recommendation?.Meals;
+        }
 
         public async Task<BaseResponse<MealDetails>> GenerateMealDetailsAsync(string mealName, int profileId)
         {
@@ -136,7 +144,7 @@ namespace konsume_v1.Core.Application.Services
                 };
 
                 var result = await openai.Chat.CreateChatCompletionAsync(chatRequest);
-                var markdown = result.Choices.FirstOrDefault()?.Message.Content;
+                var markdown = result.Choices.FirstOrDefault()?.Message.TextContent;
                 if (string.IsNullOrWhiteSpace(markdown))
                     throw new Exception("No response from AI.");
                 return new BaseResponse<MealDetails>
@@ -152,7 +160,7 @@ namespace konsume_v1.Core.Application.Services
                 {
                     IsSuccessful = false,
                     Message = $"Error: {ex.Message}",
-                    Value = null
+                    Value = new MealDetails()
                 };
             }
         }
